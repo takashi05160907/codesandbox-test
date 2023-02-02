@@ -178,3 +178,26 @@
 // const checkSum = (num1,num2)=> {
 //   return num1 + num2 > 100 ? `100を超えています。数値は${num1 + num2}です　`:`許容範囲内です。数値は${num1 + num2}です`;}
 //   console.log(checkSum(100,20))
+
+// 論理演算子の本当の意味を知ろう
+
+// const flag1 = true;
+// const flag2 = true;
+
+// if(flag1 || flag2) {
+//   console.log('1か2はtrueです。');
+// }
+
+// if(flag1 && flag2) {
+//   console.log('1も2もtrueです。');
+// }
+
+// ||は左側がfaleseの時に右側の処理をする
+const num = 200;
+const fee = num || "金額は未設定です";
+console.log(fee);
+
+//&&
+const num2 = null;
+const fee2 = num2 && "何か設定されました";
+console.log(fee2);
