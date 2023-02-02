@@ -51,13 +51,29 @@
 // console.log(val5);
 
 // テンプレート文字列
-const name = "takashi";
-const age = 33;
-// 私の名前はnameです。年齢は　age歳です。　と画面に出力する
-// 従来
-const message = "私の名前は" + name + "です。年齢は" + age + "です。";
-console.log(message);
+// const name = "takashi";
+// const age = 33;
+// // 私の名前はnameです。年齢は　age歳です。　と画面に出力する
+// // 従来
+// const message = "私の名前は" + name + "です。年齢は" + age + "です。";
+// console.log(message);
 
-// テンプレートリテラル
-const message2 = `私の名前は${name}です。年齢は${age}です。`;
-console.log(message2);
+// // テンプレートリテラル
+// const message2 = `私の名前は${name}です。年齢は${age}です。`;
+// console.log(message2);
+
+// アロー関数
+// 従来の関数
+// function func1(str) {
+//   return str;
+// }
+// const func1 = function (str) {
+//   return str;
+// };
+// console.log(func1("func1desu"));
+// // アロー関数
+// const func2 = (str) => str;
+// console.log(func2("func2です"));
+
+const func3 = (num1, num2) => num1 + num2;
+console.log(func3(10, 20));
