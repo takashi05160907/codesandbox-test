@@ -49,3 +49,15 @@
 // val5[0] = "bird";
 // val5.push("monkey");
 // console.log(val5);
+
+// テンプレート文字列
+const name = "takashi";
+const age = 33;
+// 私の名前はnameです。年齢は　age歳です。　と画面に出力する
+// 従来
+const message = "私の名前は" + name + "です。年齢は" + age + "です。";
+console.log(message);
+
+// テンプレートリテラル
+const message2 = `私の名前は${name}です。年齢は${age}です。`;
+console.log(message2);
